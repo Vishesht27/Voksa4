@@ -52,7 +52,7 @@ ___
  <b> How does the application work: </b> 
   <br>
   <li> The user is asked to provide the imagination for the personalised looks and feature in any Volkswagen car using the provide user interface. </li>
-  <li> The text is then prompted to StableDiffusionPipeline which is fine-tuned for specific modification in car using vast amount of training dataset. </li>
+  <li> The text is then prompted to StableDiffusionPipeline which is fine-tuned for specific modification in car using vast amount of training dataset: <a href="https://deepvisualmarketing.github.io/"> Link</a>. </li>
   <li> If the results are not satisfied, the image is taken as refernce and new image is generate till the customer satisfies. </li>
   <li> The finished image is sent to further design team to make nesecarry modifications for customers car. </li>
 </p>
