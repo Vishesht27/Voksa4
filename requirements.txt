@@ -1,9 +1,9 @@
 streamlit
 openai
 python-dotenv
-diffusers
-transformers 
+# diffusers
+# transformers 
 scipy 
 ftfy 
-accelerate
+# accelerate
 clarifai
