@@ -7,3 +7,4 @@ scipy
 ftfy 
 # accelerate
 clarifai
+Pillow

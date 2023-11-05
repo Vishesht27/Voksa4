@@ -2,8 +2,8 @@ import streamlit as st
 from dotenv import load_dotenv
 import os 
 import openai
-from diffusers import StableDiffusionPipeline
-import torch
+# from diffusers import StableDiffusionPipeline
+# import torch
 
 import io
 from PIL import Image
@@ -21,12 +21,12 @@ def generate_images_using_openai(text):
 
 
 #function to generate AI based images using Huggingface Diffusers
-def generate_images_using_huggingface_diffusers(text):
-    pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", torch_dtype=torch.float16)
-    pipe = pipe.to("cuda")
-    prompt = text
-    image = pipe(prompt).images[0] 
-    return image
+# def generate_images_using_huggingface_diffusers(text):
+#     pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", torch_dtype=torch.float16)
+#     pipe = pipe.to("cuda")
+#     prompt = text
+#     image = pipe(prompt).images[0] 
+#     return image
 
 def generate_images_using_clarifai(prompt):
     model = Model("https://clarifai.com/segmind/segmind-stable-diffusion/models/ssd-1b")
