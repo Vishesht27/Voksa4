@@ -6,3 +6,4 @@ transformers
 scipy 
 ftfy 
 accelerate
+clarifai
