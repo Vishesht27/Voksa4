@@ -38,7 +38,7 @@ def generate_images_using_clarifai(prompt):
 
 
 #Streamlit Code
-choice = st.sidebar.selectbox("Select your choice", ["Home", "DALL-E", "Huggingface Diffusers"])
+choice = st.sidebar.selectbox("Select your choice", ["Home", "DALL-E", "Huggingface Diffusers", "Clarifai"])
 
 if choice == "Home":
     st.title("AI Image Generation App")
