@@ -36,7 +36,7 @@ ___
   <br>
 
   <h4>Streamlit App</h4> <br>
-  <p> Open the link: <a href="https://voksa.streamlit.app"> voksa.streamlit.app </a> </p>
+  <p> Open the link: <a href="https://voksagen.streamlit.app"> voksagen.streamlit.app </a> </p>
 
 </p>
 
