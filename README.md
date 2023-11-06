@@ -37,6 +37,7 @@ ___
 
   <h4>Streamlit App</h4> <br>
   <p> Open the link: <a href="https://voksagen.streamlit.app"> voksagen.streamlit.app </a> </p>
+  <p> sample query: Create an image of a redesigned Volkswagen with futuristic front-end features. The design should blend modern aesthetics with classic Volkswagen elements, showcasing innovative headlights, a sleek grille, and dynamic lines that give the car a distinctive and forward-looking appearance  </p>
 
 </p>
 
